@@ -11,11 +11,9 @@ def valid_move?(board, index)
     return true
   else
     false
-    
-    
-end
-end
-
+  end
+  end
+  
  
     
   
