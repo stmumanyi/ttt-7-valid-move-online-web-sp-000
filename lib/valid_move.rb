@@ -13,7 +13,7 @@ def valid_move?(board, index)
     false
   end
   end
-  if position_taken?(board, index) == false && within_board(int) == true
+  if position_taken?(board, index) == false && within_board(index) == true
     return true
   else 
     return false
