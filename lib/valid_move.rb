@@ -8,7 +8,7 @@ def valid_move?(board, index)
   end 
 def within_board(int)
 end
-
+end
 
  
     
