@@ -13,13 +13,7 @@ else
 end
 end
 
-def within_board(int)
-  if int.between?(0,8) == true
-    return true
-  else
-    return false
-  end 
-end
+
  
     
   
