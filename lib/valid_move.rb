@@ -7,7 +7,8 @@ def valid_move?(board, index)
   end
   end 
 def within_board(int)
-  if int.between?(0,8)
+  if int.between?(0,8) == true
+    
 end
 end
 
