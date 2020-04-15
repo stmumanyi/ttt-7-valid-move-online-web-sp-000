@@ -12,7 +12,7 @@ else
   return true
 end
 end
-def within_board(int)
+def within_board(num)
   if int.between?(0,8) == true
     return true
   else
