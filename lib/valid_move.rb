@@ -13,7 +13,7 @@ def valid_move?(board, index)
     false
   end
   end
-  if position_taken
+  if position_taken 
  
     
   
