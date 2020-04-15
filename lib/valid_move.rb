@@ -1,5 +1,5 @@
 def valid_move?(board, index)
-  if position_taken?(board, index) == false && within_board(num) == true
+  if position_taken?(board, index) == false && within_board(Integer) == true
     return true
   else 
     return false
@@ -12,7 +12,7 @@ else
   return true
 end
 end
-def within_board(num)
+def within_board(Integer)
   if int.between?(0,8) == true
     return true
   else
