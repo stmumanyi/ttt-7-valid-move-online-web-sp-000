@@ -1,5 +1,4 @@
 def valid_move?(board, index)
-  int = index_to.i
   if position_taken?(board, index) == false && within_board(int) == true
     return true
   else 
